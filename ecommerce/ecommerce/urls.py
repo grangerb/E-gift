@@ -21,4 +21,13 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('product/',include('product.urls')),
     path('group/',include('group.urls')),
+    path('orm/',include('orm.urls')),
+    path('employee/',include('employee.urls')),
+    path('cbv/',include('cbv.urls')),
+    path('task/',include('Task.urls')),
+    path('serviceprovider/',include('serviceprovider.urls')),
+
+
+
+
 ]

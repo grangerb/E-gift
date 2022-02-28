@@ -22,4 +22,8 @@ def contactus(request):
     return render(request, 'group/contactus.html',context)
 
 def aboutus(request):
-    return render (request,'group/aboutus.html')
+    context = {
+        'isActive':True,
+        'age': 2
+    }
+    return render (request,'group/aboutus.html',context)
